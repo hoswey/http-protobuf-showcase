@@ -1,0 +1,10 @@
+package com.hoswey.showcase.protobuf;
+
+option java_package = "com.hoswey.showcase.protobuf";
+option java_outer_classname = "Echo";
+
+message Text {
+	required string message = 1;
+	required string body = 2;
+}
+
